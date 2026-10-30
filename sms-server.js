@@ -173,8 +173,7 @@ async function processSMS(numbers, message, type) {
                 },
                 body: JSON.stringify({
                     phoneNumbers: [number],
-                    textMessage: { text: message }
-withDeliveryReport: false
+                    textMessage: { text: message },withDeliveryReport: false
                 })
             });
 
